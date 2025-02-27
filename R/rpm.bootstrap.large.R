@@ -267,7 +267,6 @@ rpm.bootstrap.large <- function(I, solution,
            Zdata=Zdata,
            pmfW=pmfW, pmfM=pmfM,
            pmf=pmf, counts=counts, nobs=num_sampled,
-           pmf_est=pmf_est,
-           aic = 2*NumBeta-2*loglik, bic=log(num_sampled)*NumBeta-2*loglik, loglik=loglik
+           pmf_est=pmf_est
           )
      }
